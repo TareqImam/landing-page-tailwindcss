@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+        <link href="output.css" rel="stylesheet" />
+    </head>
+
+    <body class="font-Poppins">
+        <!-- header -->
+        <header>
+            <nav class="container flex items-start py-2 mt-2 sm:mt-12">
+                <div class="py-1">
+                    <img src="./images/logo-bookmark.svg" alt="" />
+                </div>
+                <ul
+                    class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bm-blue uppercase text-xs">
+                    <li class="cursor-pointer">Features</li>
+                    <li class="cursor-pointer">Pricing</li>
+                    <li class="cursor-pointer">Contact</li>
+                    <button
+                        type="button"
+                        class="bg-bm-red text-white rounded-md px-7 py-3 uppercase hover:bg-white hover:text-bm-red shadow-md duration-300">
+                        Login
+                    </button>
+                </ul>
+                <div class="flex sm:hidden flex-1 justify-end">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+        <!-- hero -->
+        <section class="relative">
+            <div
+                class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h2
+                        class="text-bm-blue text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">
+                        Bookmark Manager
+                    </h2>
+                    <p
+                        class="text-bm-grey text-lg text-center lg:text-left mb-6">
+                        A clean and simple interface to organize your favourite
+                        websites. Open a new browser tab and see your sites load
+                        instantly. Try it for free.
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-6">
+                        <button
+                            type="button"
+                            class="btn btn-purple hover:bg-bm-white hover:text-bm-purple">
+                            Get it on Chrome
+                        </button>
+                        <button
+                            type="button"
+                            class="btn btn-white hover:bg-bm-purple hover:text-bm-white">
+                            Get it on Firefox
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="flex flex-1 justify-center mb-10 md:mb-16 lg:mb-0 z-10">
+                    <img
+                        class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+                        src="./images/hero-bg.png"
+                        alt="" />
+                </div>
+            </div>
+            <div
+                class="hidden md:block overflow-hidden bg-bm-purple rounded-l-full absolute h-80 w-2/4 top-32 right-0 lg:-bottom-28 lg:-right-36"></div>
+        </section>
+        <!-- features -->
+        
+    </body>
+</html>
